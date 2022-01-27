@@ -20,9 +20,5 @@ export interface AppConfig {
   CORS_OPTIONS: CorsOptions;
   LOGS_DIR: string;
   LOG_LEVEL: 'debug' | 'info';
-  ANGULAR: {
-    MOUNT: boolean;
-    USE_SSR?: boolean;
-  };
   DEBUG_MODE: boolean;
 }

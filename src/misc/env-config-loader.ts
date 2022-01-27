@@ -8,7 +8,6 @@ export function getEnvConfig(): unknown {
   const webEnvConfigs = {
     SSL_CERTIFICATE: {},
     JWT: {},
-    ANGULAR: {},
   } as AppConfig;
 
   for (const envName in process.env) {

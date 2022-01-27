@@ -1,7 +1,6 @@
 {
   "extends": "./tsconfig.json",
   "exclude": [
-    "angular-src",
     "src/tests",
     "node_modules",
     "dist",

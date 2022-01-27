@@ -1,6 +1,5 @@
 {
     "mochaExplorer.files": "src/**/*.spec.ts",
-    "mochaExplorer.ignore": "angular-src/**/*",
     "mochaExplorer.env": {
         "NODE_ENV": "test"
     },
